@@ -1,4 +1,4 @@
-git 学习心得
+﻿git 学习心得
 
 -- 本地仓库初始化
 git init
@@ -8,7 +8,7 @@ git add readme.txt
 git commit -m "wrote a readme file"
 
 --git 创建ssh key 
-	1. 在用户主目录下的.ssh文件夹中创建
+	打开gitBash命令窗口输入命令：
 	命令:  ssh-keygen -t rsa -C "youremail@example.com"
 
 -- github 添加秘钥
@@ -20,3 +20,6 @@ git commit -m "wrote a readme file"
 
 -- 远程提交
 	git push origin master
+
+-- 从远程服务器克隆仓库到本地
+	git clone git@github.com:michaelliao/gitskills.git
